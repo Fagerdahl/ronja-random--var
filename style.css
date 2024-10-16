@@ -42,6 +42,8 @@ nav li a{
     padding: 0.5rem;
 }
 
+@media screen and (min-width:1000px){
+
 .container{
     display: grid;
     grid-template-columns: 10 rem auto;
@@ -62,6 +64,7 @@ nav li a{
 
 .footer{
     grid-column: span 2;
+}
 }
 
 

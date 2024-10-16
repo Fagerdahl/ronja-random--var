@@ -1,4 +1,24 @@
-document.querySelector("#jokeBtn").addEventListener("click",function() {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*document.querySelector("#jokeBtn").addEventListener("click",function() {
     const jokes = [
 "What does a baby computer call his father? Data",
 "After an unsuccessful harvest, why did the farmer decide to try a career in music? Because he had a ton of sick beets",
@@ -47,4 +67,5 @@ function resetRating(){
 
     });
 
-}
+}*/
+

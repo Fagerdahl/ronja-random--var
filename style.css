@@ -1,4 +1,193 @@
 body{
+    background-color: #faa;
+    font-size: 24px;
+}
+
+main{
+    display: block;
+    unicode-bidi: isolate;
+}
+
+html{
+    font-size: 28px;
+}
+   
+
+.main img{
+    display: block;
+   width: 280px;
+   height: 280px;
+   margin-bottom: 0.5rem;
+}
+
+.header,
+.main,
+.left,
+.right,
+.footer{
+    background-color: white;
+    margin: 0.5rem;
+    padding: 1rem;
+}
+
+.header{
+    font-size: 1.5rem;
+}
+
+nav li{
+    list-style-type: none;
+}
+
+nav li a{
+    display: block;
+    padding: 0.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.container{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    background-color: rgb(199, 199, 189);
+}
+
+.header{
+    grid-column: span 12;
+    height:100px;
+    background-color: pink;
+}
+
+.main{
+    grid-column: span 6;
+    background-color: rgb(179, 130, 180);
+}
+
+.main img{
+    float: left;
+    margin: 0 1em 1em 0;
+}
+
+.left{
+    grid-column: span 3;
+    background-color: blueviolet;
+}
+
+.right {
+    position: relative;
+    grid-column: span 3;
+    background-color: rgb(196, 49, 159);
+}
+
+.right a{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.footer{
+    grid-column: span 12;
+    background-color: red;
+}
+
+.footer ul{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0;
+}
+
+.footer li{
+    padding: 0;
+    list-style-type: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*body{
     background-color: rgb(246, 114, 20);
 }
 
@@ -73,4 +262,4 @@ img{
 }
 .star:hover, .star.selected{
     color:gold;
-}
+}*/

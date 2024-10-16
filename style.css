@@ -1,23 +1,16 @@
-body{
-    background-color: #faa;
-    font-size: 24px;
-}
-
-main{
-    display: block;
-    unicode-bidi: isolate;
-}
-
 html{
     font-size: 28px;
 }
    
 
-.main img{
+body{
+    background-color: #faa;
+    
+}
+
+main{
     display: block;
-   width: 280px;
-   height: 280px;
-   margin-bottom: 0.5rem;
+    unicode-bidi: isolate;
 }
 
 .header,
@@ -27,11 +20,17 @@ html{
 .footer{
     background-color: white;
     margin: 0.5rem;
-    padding: 1rem;
+    padding: 0.5rem;
 }
 
 .header{
     font-size: 1.5rem;
+}
+
+.main img{
+   display: block;
+   width: 100%;
+   margin-bottom: 0.5rem;
 }
 
 nav li{
@@ -41,6 +40,28 @@ nav li{
 nav li a{
     display: block;
     padding: 0.5rem;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 10 rem auto;
+}
+
+.header{
+    grid-column: span 2;
+}
+
+.left{
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.right{
+    grid-column: span 2;
+}
+
+.footer{
+    grid-column: span 2;
 }
 
 
